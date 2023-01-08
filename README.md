@@ -1,5 +1,8 @@
 # fypproject
 This repositroy includes three folders for frontend, backend and chatbot
+There are two branches in this repository named main and master
+
+All the code has been placed in master branch so you have to select master branch to access the code
 
 Frontend:
 
