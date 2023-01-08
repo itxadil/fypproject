@@ -1,0 +1,60 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Internet_issue_Hardware_issue
+  - Internet_issue_Broadband_connection
+  - Internet Connectivity Issues for 4G device
+  - Delivery of Lectures
+  - Generate Quiz
+  - Attempt Quiz
+  - personal_info
+  - social_info
+  - profile_picture
+  - resume
+actions:
+  - action_hardware_issue
+  - action_connectivity_issue
+  - action_4G_issue
+  - action_Deliver_lectures
+  - action_generate_quiz
+  - action_attempt_quiz
+  - action_for_editing_info
+  - action_for_editing_social_info
+  - action_to_edit_profile_photo
+  - action_for_resume
+  - action_for_picture
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hello"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  # utter_hardware_issue:
+  #  - text: "Check Server Machine Status"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

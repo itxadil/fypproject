@@ -1,0 +1,9 @@
+.second_div{
+    display: flex;
+    flex-direction: row;
+}
+.first_div{
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 25%;
+}
